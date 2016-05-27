@@ -13,6 +13,7 @@
 		F02C99C81CF6C4B000250D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02C99C61CF6C4B000250D54 /* Main.storyboard */; };
 		F02C99CA1CF6C4B000250D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02C99C91CF6C4B000250D54 /* Assets.xcassets */; };
 		F02C99CD1CF6C4B000250D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02C99CB1CF6C4B000250D54 /* LaunchScreen.storyboard */; };
+		F02C99D61CF6C54D00250D54 /* ImageCropperController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C99D51CF6C54D00250D54 /* ImageCropperController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F02C99C91CF6C4B000250D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F02C99CC1CF6C4B000250D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F02C99CE1CF6C4B000250D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02C99D41CF6C54D00250D54 /* ImageCropperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropperController.h; sourceTree = "<group>"; };
+		F02C99D51CF6C54D00250D54 /* ImageCropperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropperController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				F02C99C11CF6C4B000250D54 /* AppDelegate.m */,
 				F02C99C31CF6C4B000250D54 /* ViewController.h */,
 				F02C99C41CF6C4B000250D54 /* ViewController.m */,
+				F02C99D41CF6C54D00250D54 /* ImageCropperController.h */,
+				F02C99D51CF6C54D00250D54 /* ImageCropperController.m */,
 				F02C99C61CF6C4B000250D54 /* Main.storyboard */,
 				F02C99C91CF6C4B000250D54 /* Assets.xcassets */,
 				F02C99CB1CF6C4B000250D54 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02C99D61CF6C54D00250D54 /* ImageCropperController.m in Sources */,
 				F02C99C51CF6C4B000250D54 /* ViewController.m in Sources */,
 				F02C99C21CF6C4B000250D54 /* AppDelegate.m in Sources */,
 				F02C99BF1CF6C4B000250D54 /* main.m in Sources */,
@@ -302,6 +308,7 @@
 				F02C99D31CF6C4B000250D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
